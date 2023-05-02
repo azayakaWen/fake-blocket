@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import ColorLine from "./components/ColorLine"
+import Navbar from "./components/Navbar"
+import SearchWindow from "./components/SearchWindow"
+import Content from "./components/Content"
+
+import "./style/Navbar.css"
+import "./style/ColorLine.css"
+import "./style/SearchWindow.css"
+import "./style/Content.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <ColorLine />
+        <Navbar />
       </header>
+      <SearchWindow />
+      <Content />
+
+      <div className="attribution">
+        {" "}
+        Icons made by{" "}
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+          {" "}
+          Freepik{" "}
+        </a>{" "}
+        from{" "}
+        <a href="https://www.flaticon.com/" title="Flaticon">
+          www.flaticon.com'
+        </a>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

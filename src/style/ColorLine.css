@@ -1,0 +1,33 @@
+.color-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 5fr 4fr 3fr 2fr 1fr;
+  height: 0.5vh;
+}
+
+.color-one {
+  background-color: rgb(193, 34, 25);
+}
+
+.color-two {
+  background-color: rgb(252, 174, 175);
+}
+
+.color-three {
+  background-color: rgb(246, 46, 39);
+}
+
+.color-four {
+  background-color: rgb(191, 34, 30);
+}
+
+.color-five {
+  background-color: rgb(255, 181, 0);
+}
+
+.color-six {
+  background-color: rgb(193, 34, 25);
+}
+
+.color-seven {
+  background-color: rgb(252, 174, 175);
+}

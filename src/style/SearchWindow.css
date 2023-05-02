@@ -1,0 +1,104 @@
+.search-background {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(191, 162, 0),
+    rgb(254, 218, 0)
+  );
+  height: 55vh;
+  display: flex;
+  text-align: center;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 10px;
+  height: 330px;
+  width: 340px;
+  margin: auto;
+  margin-left: 40vh;
+}
+
+.form-container h1 {
+  font-size: 28px;
+}
+
+.input-container {
+  padding: 0 3vh;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.input-container p {
+  float: left;
+  margin: 0;
+}
+
+.input-lable p {
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+.input-window {
+  display: flex;
+  align-items: center;
+  border: 1px grey solid;
+  border-radius: 5px;
+  height: 48px;
+}
+
+.input-window .icon {
+  color: gray;
+  padding: 0 2vh;
+}
+
+.input-window p {
+  color: gray;
+}
+
+.dropdown-container {
+  padding: 0 3vh;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.dropdown-lable p {
+  float: left;
+  font-weight: bold;
+  margin: 1vh 0;
+}
+
+.dropdown-window {
+  display: flex;
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 5px;
+  height: 48px;
+}
+
+.dropdown-window .icon {
+  color: gray;
+  padding: 0 2vh;
+  font-size: 20px;
+}
+
+.dropdown-window p {
+  color: gray;
+}
+
+.dropdown-window .arrow-icon {
+  color: gray;
+  padding-left: 17vh;
+  font-size: 20px;
+}
+
+.form-container button {
+  background-color: #0071eb;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  height: 48px;
+  width: 290px;
+  margin-top: 2vh;
+}
