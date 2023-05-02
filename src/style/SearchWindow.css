@@ -49,6 +49,7 @@
 .input-window .icon {
   color: gray;
   padding: 0 2vh;
+  font-size: 20px;
 }
 
 .input-window p {
