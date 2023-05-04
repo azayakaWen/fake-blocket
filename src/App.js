@@ -22,8 +22,17 @@ function App() {
       <Content />
       <Commercial />
 
-      {/* <div className="attribution">
-        {" "}
+      <div className="attribution">
+        <div>
+          <p>
+            This page is a student project to try to copy the style of{" "}
+            <a href="https://www.blocket.se/">Blocket</a>.
+          </p>
+          <p>
+            All images are copied from{" "}
+            <a href="https://www.blocket.se/">Blockets</a> webpage.
+          </p>
+        </div>{" "}
         Icons made by{" "}
         <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
           {" "}
@@ -33,7 +42,7 @@ function App() {
         <a href="https://www.flaticon.com/" title="Flaticon">
           www.flaticon.com'
         </a>
-      </div> */}
+      </div>
     </div>
   )
 }

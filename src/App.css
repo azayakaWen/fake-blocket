@@ -3,8 +3,9 @@
 }
 
 .attribution {
-  position: absolute;
+  /* position: absolute; */
   bottom: 10px;
+  margin-top: 2vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
