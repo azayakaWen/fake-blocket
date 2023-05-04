@@ -3,11 +3,13 @@ import ColorLine from "./components/ColorLine"
 import Navbar from "./components/Navbar"
 import SearchWindow from "./components/SearchWindow"
 import Content from "./components/Content"
+import Commercial from "./components/Commercial"
 
 import "./style/Navbar.css"
 import "./style/ColorLine.css"
 import "./style/SearchWindow.css"
 import "./style/Content.css"
+import "./style/Commercial.css"
 
 function App() {
   return (
@@ -18,8 +20,9 @@ function App() {
       </header>
       <SearchWindow />
       <Content />
+      <Commercial />
 
-      <div className="attribution">
+      {/* <div className="attribution">
         {" "}
         Icons made by{" "}
         <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
@@ -30,7 +33,7 @@ function App() {
         <a href="https://www.flaticon.com/" title="Flaticon">
           www.flaticon.com'
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }
